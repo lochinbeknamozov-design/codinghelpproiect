@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<title> Coding Help by Loach </title>
+		<link rel="stylesheet" href="css/main.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width= device-width, initial-scale=1.0">
+	</head>
+	
+	<body>
+	<div id ="title-head"> 
+		<h1 id="title" style="line-height: 0.5em; font-family:Pala, serif;"> Coding Help by Loach</h1>
+		<title2 id="titleexp" style="font-family:Ville,serif;">  A website to help you get into HTML and CSS without hassle  or confusion </title2>
+		<title3 id="headlinks" style="font-family:Ville,serif;"> <a class="button-link" href="file:///C:/Users/Lochinbek/Downloads/codinghelpproject/codinghelpprojecthome.html"> Home</a> </title3>
+	</div>
+	<hr>
+	<div class="head1" id="html-explain">
+		<title3 style="text-align:center;display:block" id="htstart"> Style Showcase </title3>
+	</div>
+		<div class="head2" id="tgglossary">
+			<div class="tgitems" id="prt2">
+				<title3> Accent Colors </title3>
+				<input type="radio" style="accent-color: green;" id="idinpt" name="inputex">
+				<input type="radio" style="accent-color: blue;" id="idinpt" name="inputex">
+				<input type="range" style="accent-color: red;" id="vol" name="vol" min="0" max="50">
+				<p> accent-color: changes the color of some elements </p>
+			</div>
+			<!-- For animation -->
+		<style> 
+			animove {
+  			width: 100px;
+  			height: 100px;
+  			background: red;
+  			position: relative;
+  			animation: example 5s infinite;
+			}
+
+			@keyframes example {
+			0% {left: 0em;}
+			25% {left: 5em; background:blue;}
+			50% {left: 0em; background: red;}
+			75% {left: -5em; background:green;}
+			100% {left: 0em; background: red;}
+			}
+		</style>
+			<div class="tgitems" id="prt2">
+				<title3> Animation  </title3>
+				<animove></animove>
+				<p> Animation: allows you to create animatied elements using keyframes</p>
+			</div>
+		<style> 
+			asprat {
+			width: 100px;
+  			background: red;
+  			aspect-ratio: 3/2;
+			}
+		</style>
+			<div class="tgitems" id="prt2">
+				<title3>Aspect Ratio</title3>
+				<asprat></asprat>
+				<p> aspect-ratio: controls the aspect ratio of an element </p>
+			</div>
+			<style> 
+				.backy {
+    			height: 20em;
+    			display: flex;
+    			justify-content: space-between;
+    			flex-direction: column;
+    			align-items: center;
+   				width: 25%;
+    			margin: 2em;
+				background-image: url('https://i.imgur.com/O6kboMz.png');
+				background-repeat: repeat;
+				background-clip: border-box;
+				background-origin: content-box;
+				background-position: center;
+				background-size: auto;
+				background-blend-mode: multiply;
+				background-color: none;
+			}
+		</style>
+			<div class="backy" id="prt2">
+				<title3>Background</title3>
+				<hr>
+				<p style="backdrop-filter: invert(100%); color:white"> Background: Has multiple different stylings such as defining the background color or position. But also has unique properties for how the background repeats and what fliters it has. </p>
+		</div>		
+		<style> 
+			bord {
+			border: 2px solid black;
+			}
+		</style>
+			<div class="tgitems" id="prt2">
+				<title3>border</title3>
+				<bord>Normal and <b>bold</b></bord>
+				<p> &lt;border&gt; creates a border around an element </p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>Bdi element</title3>
+				<table id="example1" border="1">
+				<caption style="caption-side: bottom;">Table 1.1 Customers</caption>
+					<tr>
+						<th>Company</th>
+						<th>Contact</th>
+						<th>Country</th>
+					</tr>
+					<tr>
+					<td>Alfreds Futterkiste</td>
+					<td>Maria Anders</td>
+					<td>Germany</td>
+					</tr>
+					<tr>
+					<td>Berglunds snabbe</td>
+					<td>Christina Berglund</td>
+					<td>Sweden</td>
+					</tr>
+					<tr>
+					<td>Centro comercial Moctezuma</td>
+					<td>Francisco Chang</td>
+					<td>Mexico</td>
+					</tr>
+					<tr>
+					<td>Ernst Handel</td>
+					<td>Roland Mendel</td>
+					<td>Austria</td>
+					</tr>
+				</table>
+				<p> &lt;Bdi&gt; or Bi-directional Isolation, isolates parts of text meant to be formated differently </p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>Carnet color</title3>
+				<input style="caret-color: blue;" id="favcolor" name="favcolor" value="This one is blue">
+				<p> &lt;Bdo&gt; or Bi-directional override, overrides parts of text meant to be formated differently </p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>Clear and Float</title3>
+				<p> this is a<br> single <br> sentence.</p>
+				<p> &lt;br&gt; breaks the line into a another one</p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>Color</title3>
+				<p><span style="color: #FF0000;">Red</span>, <span style="color: rgb(0, 0, 255);">Blue</span>, and <span style="color: green;">Green</span></p>
+				<p> Color in HTML is either expressed in hex(#FF0000), rgb(255, 0, 0), or with color names (Red)</p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>Column</title3>
+				<p style="column-count: 3; column-gap: 2em; font-size: 8pt;">
+					Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+					Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. 
+				</p>
+				<p> &lt;canvas&gt; used to draw in javascript</p>
+			</div>
+			<style>
+
+			</style>
+			<div class="tgitems" id="prt2">
+				<title3>Direction</title3>
+				<p> Right to Left </p>
+				<p> Left to Right </p>
+				<p> Direction: Defines the direction of text. </p>
+			</div>
+			<style>
+				.imageblur {
+				filter:blur(5px);
+				}
+				.imagesepia {
+				filter:sepia(100%);
+				}
+				.imagehue {
+				filter:hue-rotate(90deg);
+				}
+			</style>
+			<div class="tgitems" id="prt2">
+				<title3>Filter</title3>
+				<div id="imagefilter">
+				<img class="imageblur" src="https://i.imgur.com/O6kboMz.png">
+				<img class="imagesepia" src="https://i.imgur.com/O6kboMz.png">
+				<img class="imagehue" src="https://i.imgur.com/O6kboMz.png">
+				</div>
+				<p> Filter: Places a filter/effect on top of a image example: blur, sepia, hue-rotate.</p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>Font</title3>
+				<p> This sentence is in Pala and 12pt. </p>
+				<p style="font-family: Arial; font-size: 14pt;">This setence is in Arial and 14pt.</p>
+				<p> Font changes the font.</p>
+			</div>
+			<style>
+				.gridshow div {
+				border: 1px solid black;
+				}
+				.gridshow {
+				display: grid;
+				grid-template-columns: repeat(3, 1fr);
+				gap: 5px;
+				overflow-wrap: wrap;
+				border:1px solid black;
+				}
+			</style>
+			<div class="tgitems" id="prt2">
+				<title3>Grid</title3>
+				<div class ="gridshow">
+					<div style="background-color: lightblue; width: 100px; height: 100px;"></div>
+					<div style="background-color: lightcoral; width: 100px; height: 100px;"></div>
+					<div style="background-color: lightgreen; width: 100px; height: 100px;"></div>
+					<div style="background-color: lightblue; width: 100px; height: 100px;"></div>
+					<div style="background-color: lightcoral; width: 100px; height: 100px;"></div>
+					<div style="background-color: lightgreen; width: 100px; height: 100px;"></div>
+				</div>
+				<p> Grid is similar to flexbox but with more control over the layout. Explained more in Flex and Grid Page.</p>
+			</div>
+			<style>
+				.frstltter {
+					font-size: 8pt;
+					-webkit-initial-letter: 2;
+  					initial-letter: 2; /* Initial letter occupies 2 lines */
+				}
+				.frstltter > :first-letter {
+  				font-size: 200%;
+  				color: red;
+				}
+			</style>
+			<div class="tgitems" id="prt2">
+				<title3>Hyphenation</title3>
+				<div class="frstltter">
+				<p>Cherry is a type of fruit.</p>
+				<p>Since it is so sweet, many people like to eat it.</p>
+				<p>Swallowing the pits whole normally causes no complications.</p>
+			</div>
+				<p> &lt;ins&gt; puts a lineunder a piece of text meant to signify text added</p>
+			</div>
+			<style>	
+				.parent {
+					position: relative;
+					border: 1px solid black;
+					width: 15em;
+					height: 20em;
+				}
+				.child {
+					inset: 1em 2em 2em 2em;
+    				background-color: lightblue;
+   					background-size: revert-layer;
+    				position: inherit;
+    				font-size: 8pt;
+    				display: inline-flex;
+				}
+			</style>
+			<div class="tgitems" id="prt2">
+				<title3>Inset</title3>
+				<div class="parent" id="prt2">
+					<div class="child">	This is futher away from parent div.</div>
+				</div>
+				<p> inset: Pushes the child element away from the parent element which it is inside of.</p>
+				</div>
+			<div class="tgitems" id="prt2">
+				<title3>Letter spacing</title3>
+				<p style="letter-spacing: 0.5em;">This sentence has a letter spacing of 0.5em.</p>
+				<p> letter-spacing: Changes the space between letters.</p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>Line Height</title3>
+				<p style="line-height: 1.5;">This sentence has a line height of 1.5.</p>
+				<p> line-height: Changes the space between lines of text.</p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>List</title3>
+				<ul style="list-style-type: square;">
+					<li style="border: 1px solid black;"> Item 1 </li>
+					<li style="border: 1px solid black;"> Item 2 </li>
+				</ul>
+				<ul style="list-style-position: inside;">
+					<li style="border: 1px solid black;"> Item 1 </li>
+					<li style="border: 1px solid black;"> Item 2 </li>
+				</ul>
+				<p> List: Can style the type and positioning (Inside or outside border) of list items. You can also use images as list makers.</p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>Margin</title3>
+				<p style="margin: 2em; border: 1px solid black;"> This sentence has a margin of 2em.</p>
+				<p> Margin: Changes the space outside of an element.</p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>Outline</title3>
+				<p style="border: 1px solid red; outline: 2px dashed blue;">This sentence has an outline and a border.</p>
+				<p> Outline: Adds a line around an element.</p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>overflow</title3>
+				<div style="width: 15em; height: 5em; border: 1px solid black; overflow: scroll;">
+					<p>This sentence is inside a div with a set width and height. Since the text is too long to fit, it creates a scroll bar.</p>
+				</div>
+				<div style="width: 15em; height: 5em; border: 1px solid white; overflow: scroll;">
+					<p>This sentence is inside a div with a set width and height. Since the text is too long to fit, it creates a scroll bar.</p>
+				</div>
+				<p></p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>List</title3>
+				<p> here is a list</p>
+				<ol>
+					<li> Item 1 </li>
+					<li> Item 2 </li>
+				</ol>
+				<p> &lt;ol&gt; makes lists with numbers or letters while &lt;ul&gt; makes lists with bullet points. Both use &lt;li&gt; for list items</p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>Mark</title3>
+				<p>Blah blah blah <mark>Important thing!</mark> blah.</p>
+				<p> &lt;mark&gt; highlights important text</p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>meter</title3>
+				<label for="loading">Space Left</label>
+				<meter id="loading" value="5" min="0" max="10">5 out of 10</meter>
+				<p> &lt;meter&gt; makes a measurement within a range. Different from a progress bar. </p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>Dropdown</title3>
+				<label for="options2">Choose a Color</label>
+				<select name="Colors" id="options2">
+					<option style="display:none">
+					<option value="choice1r">Red</option>
+					<option value="choice2g">Green</option>
+					<option value="choice3b">Blue</option>
+				</select>
+				<p> &lt;select&gt; makes a dropdown menu to select a choice. &lt;option&gt; makes each one of those choices.</p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>Parameter</title3>
+					<param name="autoplay" value="true">
+				<p> &lt;meter&gt; makes a measurement within a range. Different from a progress bar. </p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>pictures</title3>
+					<picture>
+						<source media="(min-width:650px)"  alt="Flowers3"srcset="img_pink_flowers.jpg">
+						<source media="(min-width:465px)"  alt="Flowers2"srcset="img_white_flower.jpg">
+						<img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+					</picture>
+				<p> &lt;meter&gt; makes a measurement within a range. Different from a progress bar. </p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>Progress</title3>
+					<label for="file">Downloading progress:</label>
+					<progress id="file" value="32" max="100"> 32% </progress>
+				<p> &lt;meter&gt; makes a measurement within a range. Different from a progress bar. </p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>Search</title3>
+					<search>
+					<form>
+						<input name="fsrch" id="fsrch" placeholder="Search">
+					</form>
+					</search>
+				<p> &lt;meter&gt; makes a measurement within a range. Different from a progress bar. </p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>Section</title3>
+					<section>
+					<p><small>Truth is one of the central subjects in philosophy. It is also one of the largest. Truth has been a topic of discussion in its own right for thousands of years.</small></p>
+					</section>
+					<section>
+					<p><small>Questions central to the philosophical discussion of lying to others and other-deception (interpersonal deceiving) may be divided into two kinds.</small></p>
+					</section>
+				<p> &lt;section&gt; defines a section in a document.</p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>Span</title3>
+					<p>My mother has <span style="color:blue">blue</span> eyes.</p>
+				<p> &lt;span&gt; is similar to the div element but span works in-line text rather than block-level </p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>Sub-Super Script</title3>
+					<p>Word <sub>down</sub> and word <sup>up</sup>.</p>
+				<p> &lt;sub&gt; is for sub-script text and &lt;sup&gt; for super-script text </p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>SVG</title3>
+					<svg width="100" height="100">
+						<circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+					</svg>
+				<p> &lt;svg&gt; is a contianer for SVG graphics which can draw shapes. </p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>Text Area</title3>
+					<textarea id="w3review" name="w3review" rows="4" cols="30">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</textarea>
+				<p> &lt;textarea&gt; is used for multi-line text input control</p>
+			</div>
+			<div class="tgitems" id="prt2">
+				<title3>Video</title3>
+					<video width="320" height="240" controls>
+						<source src="https://en.wikipedia.org/wiki/File:Hubble_Maps_Jupiter_in_4k_Ultra_HD.webm" type="video/webm"> 
+						<source src="movie.ogg" type="video/ogg">
+						Your browser does not support the video tag.
+					</video>
+			</div>
+	</div>
+	</body>
+</html>

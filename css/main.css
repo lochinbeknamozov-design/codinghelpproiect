@@ -1,0 +1,130 @@
+@font-face { 
+  src: url(../assets/fonts/LibreBaskerville-Regular.ttf);
+  font-family: 'Ville';
+}
+
+@font-face {
+    src: url(../assets/fonts/pala.ttf);
+    font-family:'Pala';
+}
+title {
+    font-size: 25pt;
+}
+title2 {
+    font-size: 20pt;
+}
+title3 {
+    font-size: 15pt;
+    font-family:Ville,serif;
+}
+p {
+    font-size: 12pt;
+    margin: 1em;
+    display: block;
+    font-family:Pala,serif;
+    unicode-bidi: isolate;
+}
+.button-link {
+background-color:grey;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+.contenttext {
+    width: 100em; 
+}
+.head1 {
+    line-height: normal;
+    margin: 1em;
+}
+.content {
+	padding-top: 1em;
+    padding-right: 1em;
+	width: auto; 
+	height: auto;
+	display: flex;
+    align-items: center;
+}
+.imageright {
+	vertical-align: top;
+    padding: 1em;
+}
+.content > .imageright {
+	
+}
+.smallicon {
+    max-height: 1em;
+    max-width: 1em;
+    vertical-align: text-top;
+}
+.flexcontainer > contenttext {
+}
+
+.pre {
+    white-space-collapse:revert;
+}
+.introbox {
+    background-color: Beige;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.smallerbox {
+    background-color: lightgray;
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.head2 {
+    line-height: normal;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tgitems {
+    background-color: wheat;
+    height: 20em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin: 2em;
+}
+
+.tgitems  > img {
+    overflow:hidden;
+    max-width: 100%;
+}
+.dialog-button {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+hr {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 96%;
+    background-color: grey;
+    height: 1px;
+}
+audio {
+    max-width:100%;
+}
+iframe {
+    max-width:100%;
+}
